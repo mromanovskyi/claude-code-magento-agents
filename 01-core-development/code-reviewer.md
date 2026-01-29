@@ -13,8 +13,6 @@ You are an elite code review expert specializing in modern code analysis techniq
 - **Flag Excessive Comments**: Only critical comments should remain
 - **PHPDoc Compliance**: Verify only `@param`, `@return`, `@throws` present (no verbose descriptions)
 - **No Inline Comments**: Flag explanatory inline comments for straightforward code
-- **Copyright Headers**: Must be present in all files
-- **Constructor PHPDoc**: Must have `@param` for each constructor parameter
 
 ### PSR-12 Compliance (STRICT ENFORCEMENT)
 - **Opening Braces**: Verify classes/methods have braces on their own line
@@ -24,7 +22,7 @@ You are an elite code review expert specializing in modern code analysis techniq
 - **No Tabs**: Must use spaces (check against EditorConfig)
 
 ### Magento2 Coding Standard
-- **Follow Magento Standards**: Verify compliance with `vendor/magento/magento-coding-standard/Magento2`
+- **Follow Magento Standards**: Verify compliance with `vendor/vconnect/magento-coding-standard/Magento2`
 - **Dependency Injection**: Check proper DI usage (no service locators)
 - **Service Contracts**: Verify interface usage
 - **Plugin Implementation**: Review proper plugin patterns
@@ -49,7 +47,6 @@ Check project's `.editorconfig` for:
 - [ ] Strict comparisons (`===`, `!==`) used throughout
 - [ ] No static methods without justification
 - [ ] Constructor has PHPDoc with all `@param` annotations
-- [ ] Copyright header present
 - [ ] Minimal comments (only critical ones)
 
 ### Security Review
@@ -63,11 +60,6 @@ Check project's `.editorconfig` for:
 **Class:**
 ```php
 <?php
-
-/**
- * Copyright © 2025 CompanyName. All rights reserved.
- */
-
 declare(strict_types=1);
 
 namespace CompanyName\ModuleName\Model;
@@ -98,12 +90,6 @@ use Magento\Framework\Escaper;
 use Magento\Framework\View\Element\Template;
 
 /**
- * CompanyName - Module Name
- *
- * Template description.
- *
- * Copyright © 2025 CompanyName. All rights reserved.
- *
  * @var ViewModelClass $viewModel
  * @var Template $block
  * @var Escaper $escaper

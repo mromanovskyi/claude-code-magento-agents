@@ -17,17 +17,17 @@ DevOps and infrastructure specialists focused on deployment automation, environm
 - **Best for**: Server optimization, environment standardization, performance tuning
 
 ### 💻 [local-environment-specialist](./local-environment-specialist.md)
-**Local development specialist** - Docker, Valet+, and native development environments
+**Local development specialist** - Warden, Docker, Valet+, and native development environments
 - **When to use**: Local development setup, debugging configuration, development workflow optimization
 - **Delegates to**: php-specialist, performance-analyst, security-analyst
-- **Best for**: Docker environments, Valet+ setup, IDE integration, debugging workflows
+- **Best for**: Warden, Docker environments, Valet+ setup, IDE integration, debugging workflows
 
 ## Infrastructure Focus Areas
 
 ### Deployment & DevOps
 **Modern deployment practices**
 - **CI/CD Pipelines**: Automated build, test, and deployment workflows
-- **Containerization**: Docker and Kubernetes orchestration
+- **Containerization**: Warden/Docker and Kubernetes orchestration
 - **Infrastructure as Code**: Terraform, Ansible, CloudFormation
 - **Release Management**: Blue-green, canary, and rolling deployments
 - **Monitoring & Observability**: Application and infrastructure monitoring

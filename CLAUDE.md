@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Claude Code when working with Magento 2 projects.
 
 ## Repository Structure
 
@@ -95,4 +95,5 @@ Each agent is designed to be highly specialized in their domain while maintainin
 
 ## Commands execution
 
-All commands should be executed from the root of the repository using `warden env exec php-fpm `
+Magento 2 `bin/magento` command should be executed from the root of the repository using `warden env exec php-fpm bin/magento`
+Composer command should be executed from the root of the repository using `warden env exec php-fpm composer`
