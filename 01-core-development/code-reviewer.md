@@ -58,8 +58,7 @@ Check project's `.editorconfig` for:
 
 **Class:**
 ```php
-<?php
-declare(strict_types=1);
+<?php declare(strict_types=1);
 
 namespace CompanyName\ModuleName\Model;
 
@@ -68,10 +67,6 @@ use CompanyName\ModuleName\Api\DependencyInterface;
 
 class Example
 {
-    /**
-     * @param DependencyInterface $dependency
-     * @param ConfigInterface $config
-     */
     public function __construct(
         private readonly DependencyInterface $dependency,
         private readonly ConfigInterface $config

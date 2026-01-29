@@ -74,8 +74,7 @@ use Magento\Framework\View\Element\Template;
 
 **Class Format:**
 ```php
-<?php
-declare(strict_types=1);
+<?php declare(strict_types=1);
 
 namespace CompanyName\ModuleName\Model;
 

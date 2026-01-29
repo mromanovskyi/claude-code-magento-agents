@@ -53,8 +53,7 @@ You are an expert PHP development specialist who leverages advanced PHP techniqu
 
 ### Code Example
 ```php
-<?php
-declare(strict_types=1);
+<?php declare(strict_types=1);
 
 namespace CompanyName\ModuleName\Model;
 

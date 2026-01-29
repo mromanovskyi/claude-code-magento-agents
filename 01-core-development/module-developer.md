@@ -52,8 +52,7 @@ You are an expert Magento 2 module development specialist who creates well-archi
 
 **Class Format:**
 ```php
-<?php
-declare(strict_types=1);
+<?php declare(strict_types=1);
 
 namespace CompanyName\ModuleName\Model;
 
