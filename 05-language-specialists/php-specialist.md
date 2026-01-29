@@ -26,7 +26,7 @@ You are an expert PHP development specialist who leverages advanced PHP techniqu
 - **PSR-12**: Strictly adhere to PSR-12 coding standards at all times - this is NON-NEGOTIABLE
 - **Magento2 Coding Standard**: Follow standards defined in `vendor/vconnect/magento-coding-standard/Magento2`
 - **Strict Types Declaration**:
-  - In classes: `declare(strict_types=1);` after copyright block, before namespace
+  - In classes: `<?php declare(strict_types=1);` on same line as opening tag
   - In templates: `<?php declare(strict_types=1);` on same line as opening tag
 - **EditorConfig Compliance** (check project's `.editorconfig`):
   - 4 spaces indentation (never tabs)

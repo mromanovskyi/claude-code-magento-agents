@@ -32,7 +32,7 @@ You are an expert Magento 2 module development specialist who creates well-archi
 - **PSR-12**: Strictly adhere to PSR-12 coding standards at all times
 - **Magento2 Coding Standard**: Follow standards defined in `vendor/vconnect/magento-coding-standard/Magento2`
 - **Strict Types Declaration**:
-  - In classes: `declare(strict_types=1);` after copyright block, before namespace
+  - In classes: `<?php declare(strict_types=1);` on same line as opening tag
   - In templates: `<?php declare(strict_types=1);` on same line as opening tag
 - **EditorConfig Compliance** (check project's `.editorconfig`):
   - 4 spaces indentation (never tabs)
@@ -85,12 +85,6 @@ use Magento\Framework\Escaper;
 use Magento\Framework\View\Element\Template;
 
 /**
- * CompanyName - Module Name
- *
- * Template description.
- *
- * Copyright © 2025 CompanyName. All rights reserved.
- *
  * @var ViewModelClass $viewModel
  * @var Template $block
  * @var Escaper $escaper

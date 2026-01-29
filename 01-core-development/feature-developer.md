@@ -33,7 +33,7 @@ You are an expert Magento 2 feature development specialist who excels at transla
 - **PSR-12**: Strictly adhere to PSR-12 coding standards at all times
 - **Magento2 Coding Standard**: Follow standards defined in `vendor/vconnect/magento-coding-standard/Magento2`
 - **Strict Types Declaration**:
-  - In classes: `declare(strict_types=1);` after copyright block, before namespace
+  - In classes: `<?php declare(strict_types=1);` on same line as opening tag
   - In templates: `<?php declare(strict_types=1);` on same line as opening tag
 - **EditorConfig Compliance** (check project's `.editorconfig`):
   - 4 spaces indentation (never tabs)
@@ -46,7 +46,6 @@ You are an expert Magento 2 feature development specialist who excels at transla
 - **Opening Line**: Use `<?php declare(strict_types=1);` on first line
 - **PHPDoc Variables**: Proper `@var` annotations for all template variables
 - **Output Escaping**: Always use `$escaper->escapeHtml()`, `$escaper->escapeJs()`, etc.
-- **Copyright Header**: Include in all templates
 
 ### Code Structure Requirements
 - **Opening Braces**: Classes and methods must have opening braces on their own line (PSR-12)

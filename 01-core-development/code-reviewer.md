@@ -38,7 +38,7 @@ Check project's `.editorconfig` for:
 
 ### Code Quality Checklist
 - [ ] `declare(strict_types=1);` present
-  - Classes: After copyright, before namespace
+  - Classes: Same line as `<?php`
   - Templates: Same line as `<?php`
 - [ ] All parameters type-hinted
 - [ ] All return types type-hinted
