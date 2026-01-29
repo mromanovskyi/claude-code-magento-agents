@@ -92,3 +92,7 @@ When working with these agents, they should be familiar with:
 ## Agent Specialization
 
 Each agent is designed to be highly specialized in their domain while maintaining awareness of Magento 2 best practices. The `code-reviewer` agent should be used proactively to ensure code quality across all development activities.
+
+## Commands execution
+
+All commands should be executed from the root of the repository using `warden env exec php-fpm `
