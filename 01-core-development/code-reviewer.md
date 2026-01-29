@@ -46,7 +46,6 @@ Check project's `.editorconfig` for:
 - [ ] No unused imports
 - [ ] Strict comparisons (`===`, `!==`) used throughout
 - [ ] No static methods without justification
-- [ ] Constructor has PHPDoc with all `@param` annotations
 - [ ] Minimal comments (only critical ones)
 
 ### Security Review
