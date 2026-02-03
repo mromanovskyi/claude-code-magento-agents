@@ -97,3 +97,9 @@ Each agent is designed to be highly specialized in their domain while maintainin
 
 Magento 2 `bin/magento` command should be executed from the root of the repository using `warden env exec php-fpm bin/magento`
 Composer command should be executed from the root of the repository using `warden env exec php-fpm composer`
+
+## Modules location
+
+All modules should be located in `src` directory
+All modules are located in `src` directory
+All modules should be required using composer
